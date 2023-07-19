@@ -1,0 +1,345 @@
+# Youtube_UI_clone
+
+HTML CODE:--
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+                <!-- header -->
+    <nav>
+        <div class="left">
+            <i class="material-icons">menu</i>
+            <img src="./youtube_logo.jpg" alt="youtubelogo">
+            <span>@MANTU</span>
+        </div>
+        <div class="searchbar">
+            <form clas="search">
+                <input type="text" placeholder="Search">
+                <button><i class="material-icons">search</i></button>
+            </form>
+        </div>
+        <div class="right">
+            <i class="material-icons">search</i>
+            <i class="material-icons">videocam</i>
+            <i class="material-icons">apps</i>
+            <i class="material-icons">notifications</i>
+            <i class="material-icons">account_circle</i>
+        </div>
+    </nav>
+     <!-- end header -->
+
+     <!-- side bar start here -->
+    <div class="main">
+        <div class="side_bar">
+            <div class="categories">
+                <div class="category">
+                    <i class="material-icons">home</i>
+                    <span>Home</span>
+                </div>
+                <div class="category">
+                    <i class="material-icons">local_fire_department</i>
+                    <span>Trending</span>
+                </div>
+                <div class="category">
+                    <i class="material-icons">subscriptions</i>
+                    <span>Subscriptions</span>
+                </div>
+            </div>
+            <hr>
+            
+            <div class="categories">
+                <div class="category">
+                    <i class="material-icons">video_library</i>
+                    <span>Library</span>
+                </div>
+                <div class="category">
+                    <i class="material-icons">history</i>
+                    <span>History</span>
+                </div>
+                <div class="category">
+                    <i class="material-icons">play_arrow</i>
+                    <span>Your Videos</span>
+                </div>
+                <div class="category">
+                    <i class="material-icons">watch_later</i>
+                    <span>Watch Later</span>
+                </div> 
+                <div class="category">
+                    <i class="material-icons">thumb_up</i>
+                    <span>Like Videos</span>
+                </div>
+            </div>
+        </div>
+          
+         <!-- videos part -->
+        <div class="videos">
+            <h1>Recommended</h1>
+          <div class="video_container">
+            <div class="video">
+                <div class="thumbnail">
+                    <a href="https://youtu.be/hPZ-0OGxeUE" target="_blank">
+                        <img src="./img11.avif">
+                    </a>
+                </div>
+                <div class="details">
+                    <div class="auther_icon">
+                        <i class="material-icons">account_circle</i>
+                    </div>
+                    <div class="title">
+                         <h4>जय राधा माधव | Jai Radha Madhav | Popular Krishna Bhajans | Most Beautiful Krishna Song</h4>
+                         <h4>Hare Krishna TV</h4>
+                         <h4>5.6M views 2 years ago</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- end single video -->
+            
+               <!-- single video patr start here -->
+            <div class="video">
+                <div class="thumbnail">
+                    <a href="https://youtu.be/Roo2jge-Lpk" target="_blank">
+                        <img src="./image1.avif">
+                    </a>
+                </div>
+                <div class="details">
+                    <div class="auther_icon">
+                        <i class="material-icons">account_circle</i>
+                    </div>
+                    <div class="title">
+                         <h4>मंगल भवन अमंगल हारी | रामायण चौपाई | सम्पूर्ण रामायण कथा |</h4>
+                         <h4>prabhu Milan</h4>
+                         <h4>2.8M views 9 months ago</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- end single video -->
+
+            <div class="video">
+                <div class="thumbnail">
+                    <a href="https://youtu.be/q5G0VQ9_S_Y" target="_blank">
+                        <img src="./img14.webp">
+                    </a>
+                </div>
+                <div class="details">
+                    <div class="auther_icon">
+                        <i class="material-icons">account_circle</i>
+                    </div>
+                    <div class="title">
+                         <h4>POWERFUL SHIVA mantra to remove negative energy - Shiva Dhyana Mantra (Mahashivratri Chant) - 3 hrs</h4>
+                         <h4>MahaKatha</h4>
+                         <h4>7.6M views 6 months ago</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- end single video -->
+
+               <!-- single video patr start here -->
+               <div class="video">
+                <div class="thumbnail">
+                    <a href="https://youtu.be/91cZl071YIo" target="_blank">
+                        <img src="./img2.webp">
+                    </a>
+                </div>
+                <div class="details">
+                    <div class="auther_icon">
+                        <i class="material-icons">account_circle</i>
+                    </div>
+                    <div class="title">
+                         <h4>हनुमान चालीसा के साथ दिन की शुरुआत करें - Hanuman Chalisa |</h4>
+                         <h4>Hanuman Bhajan</h4>
+                         <h4>798K views 7 months ago</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- end single video -->
+
+               <!-- single video patr start here -->
+               <div class="video">
+                <div class="thumbnail">
+                    <a href="https://youtu.be/fgGXJnpuON0" target="_blank">
+                        <img src="./img3.avif">
+                    </a>
+                </div>
+                <div class="details">
+                    <div class="auther_icon">
+                        <i class="material-icons">account_circle</i>
+                    </div>
+                    <div class="title">
+                         <h4>Best Sawan Shiv Bhajan _#मधुर Bhajan_बड़े से बड़े संकट टल जायेगा एक बार इस भजन सुन लेना _ Shiv Bhajan</h4>
+                         <h4>Sanskriti</h4>
+                         <h4>14k views 6 days ago</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- end single video -->
+
+               <!-- single video patr start here -->
+               <div class="video">
+                <div class="thumbnail">
+                    <a href="https://youtu.be/T9_Emk4Z4w8" target="_blank">
+                        <img src="./img4.webp">
+                    </a>
+                </div>
+                <div class="details">
+                    <div class="auther_icon">
+                        <i class="material-icons">account_circle</i>
+                    </div>
+                    <div class="title">
+                         <h4>HARE KRISHNA HARE RAM | Krishna Mantra | Krishna bhajan</h4>
+                         <h4>Shri krishna Bhagti</h4>
+                         <h4>267K views 2 months ago</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- end single video -->
+
+               <!-- single video patr start here -->
+               <div class="video">
+                <div class="thumbnail">
+                    <a href="https://youtu.be/CmFbpj4AssA" target="_blank">
+                        <img src="./img5.avif">
+                    </a>
+                </div>
+                <div class="details">
+                    <div class="auther_icon">
+                        <i class="material-icons">account_circle</i>
+                    </div>
+                    <div class="title">
+                         <h4>Shreeman Narayan Narayan Hari Hari - DHUN - NONSTOP - 1 HOUR</h4>
+                         <h4>Studio Sangeeta</h4>
+                         <h4>2.2M views 2 months ago</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- end single video -->
+
+               <!-- single video patr start here -->
+               <div class="video">
+                <div class="thumbnail">
+                    <a href="https://youtu.be/Sc2oPmOfuW4" target="_blank">
+                        <img src="./img6.avif">
+                    </a>
+                </div>
+                <div class="details">
+                    <div class="auther_icon">
+                        <i class="material-icons">account_circle</i>
+                    </div>
+                    <div class="title">
+                         <h4>अच्युतम केशवम कृष्ण दामोदरम | Bhakti Geet and Bhajan |Achyutam Keshavam Krishna Damodaram</h4>
+                         <h4>prerna Bhagti Geet</h4>
+                         <h4>58K views 8 days ago</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- end single video -->
+
+               <!-- single video patr start here -->
+               <div class="video">
+                <div class="thumbnail">
+                    <a href="https://youtu.be/-FllSQ8ZXrw" target="_blank">
+                        <img src="./img7.webp">
+                    </a>
+                </div>
+                <div class="details">
+                    <div class="auther_icon">
+                        <i class="material-icons">account_circle</i>
+                    </div>
+                    <div class="title">
+                         <h4>Gayatri Mantra 108 Times | गायत्री मंत्र | | Powerful Mantra | ओम भूर भुवा स्वाहा</h4>
+                         <h4>Studio Swara</h4>
+                         <h4>550K views 2 months ago</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- end single video -->
+
+               <!-- single video patr start here -->
+               <div class="video">
+                <div class="thumbnail">
+                    <a href="https://youtu.be/kUFzudserqw" target="_blank">
+                        <img src="./img8.avif">
+                    </a>
+                </div>
+                <div class="details">
+                    <div class="auther_icon">
+                        <i class="material-icons">account_circle</i>
+                    </div>
+                    <div class="title">
+                         <h4>Mere Ghar Ram Aaye He | Jubin Nautiyal Top 10 Bhaktisong | Jubin Nautiyal New Song 2023</h4>
+                         <h4>Sona Sonu FF</h4>
+                         <h4>10M views 5 months ago</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- end single video -->
+
+            <div class="video">
+                <div class="thumbnail">
+                    <a href="https://youtu.be/jMuB3hZIER4" target="_blank">
+                        <img src="./img9.avif">
+                    </a>
+                </div>
+                <div class="details">
+                    <div class="auther_icon">
+                        <i class="material-icons">account_circle</i>
+                    </div>
+                    <div class="title">
+                         <h4>"Adharam Madhuram - A Soul-Stirring Bhajan Devoted to Lord Krishna"</h4>
+                         <h4>Soul Sanctuary</h4>
+                         <h4>247K views 12 days ago</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- end single video -->
+
+            <div class="video">
+                <div class="thumbnail">
+                    <a href="https://youtu.be/mWKw7tlMiPE" target="_blank">
+                        <img src="./img10.avif">
+                    </a>
+                </div>
+                <div class="details">
+                    <div class="auther_icon">
+                        <i class="material-icons">account_circle</i>
+                    </div>
+                    <div class="title">
+                         <h4>POPULAR NEW SHRI KRISHNA BHAJAN | मधुराष्टकम् | MADHURASHTAKAM | VERY BEAUTIFUL SONG</h4>
+                         <h4>Hare Krishna TV</h4>
+                         <h4>19M views 2 years ago</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- end single video -->
+
+            <div class="video">
+                <div class="thumbnail">
+                    <a href="https://youtu.be/QnQg95_3088" target="_blank">
+                        <img src="./img13.avif">
+                    </a>
+                </div>
+                <div class="details">
+                    <div class="auther_icon">
+                        <i class="material-icons">account_circle</i>
+                    </div>
+                    <div class="title">
+                         <h4>Kabira Dohe कबीर दोहे | Shiva Chaudhary | @nishmusic7650 | Kabirdohe 2022</h4>
+                         <h4>Shiva Chaudhry</h4>
+                         <h4>566K views 6 months ago</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- end single video -->
+
+          </div>
+        </div>
+    </div>
+</body>
+</html>
